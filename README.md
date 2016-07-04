@@ -1,0 +1,2 @@
+# images_vm_bkp
+Programa para fazer o backup das imagens das VMs que estao em /var/lib/libvirt/images, serah feito apenas o backup dos arquivos de extensao .img. Este programa em python tem caracteristica/comportamento paraceido com script shell se for executado sem parametro (Ex.: python host01_images_vm_bkp.py), farah o bkp de todas VMs automatico, porem se for passado o nome da imagem especifica  (Ex. python host01_images_vm_bkp.py vm.img), farah o backup paenas da imagem desejada
